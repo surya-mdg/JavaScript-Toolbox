@@ -1,0 +1,41 @@
+body{
+    background-color: #FCE38A;
+}
+
+img{
+    height: 30%;
+    border-radius: 50px;
+    border: 10px solid #FFF2CC;
+    box-shadow: 0 0 10px #796d42;
+    animation-name: pop-up;
+    animation-duration: 0.4s;
+
+}
+
+.window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+@keyframes pop-up{
+    from{height: 10%;}
+    to{height: 30%;}
+}
+
+@media (max-width: 1000px){
+    img{
+        border-radius: 20%;
+        border: 40px solid #FFF2CC;
+        box-shadow: 0 0 20px #796d42;
+    }
+}
+
+@media (max-height: 599px){
+    img{
+        border-radius: 50px;
+        border: 20px solid #FFF2CC;
+        box-shadow: 0 0 20px #796d42;
+    }
+}
