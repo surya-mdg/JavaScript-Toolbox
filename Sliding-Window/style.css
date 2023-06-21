@@ -1,12 +1,12 @@
 body{
-    background-color: #3d3f41;
+    background-color: #152734;
 }
 
 img{
     height: 30%;
     border-radius: 50px;
-    border: 10px solid #1a0e13;
-    box-shadow: 0 0 10px #141515;
+    border: 10px solid #204042;
+    box-shadow: 0 0 10px #0f1d1e;
     animation-name: pop-up;
     animation-duration: 0.4s;
     background-color: #45484a;
@@ -35,15 +35,15 @@ img{
 @media (max-width: 1000px){
     img{
         border-radius: 20%;
-        border: 40px solid #FFF2CC;
-        box-shadow: 0 0 20px #8d7e4c;
+        border: 40px solid #204042;
+        box-shadow: 0 0 20px #0f1d1e;
     }
 }
 
 @media (max-height: 599px){
     img{
         border-radius: 50px;
-        border: 20px solid #FFF2CC;
-        box-shadow: 0 0 20px #8d7e4c;
+        border: 20px solid #204042;
+        box-shadow: 0 0 20px #0f1d1e;
     }
 }
