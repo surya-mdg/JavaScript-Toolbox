@@ -1,2 +1,2 @@
 # JavaScript-Toolbox
- A collection of one mechanic & aesthetic websites made using HTML, CSS & JavaScript.
+ A collection of mini websites I made to revise JavaScript.
